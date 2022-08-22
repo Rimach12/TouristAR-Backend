@@ -18,7 +18,7 @@ dotenv.load_dotenv()
 
 
 class Store(Base):
-    """The Store class corresponds to the "stores" database table."""
+    """The Store class corresponds to the "stores" database table11111."""
 
     __tablename__ = "stores"
     id = Column(String, primary_key=True)
